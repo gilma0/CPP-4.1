@@ -13,7 +13,6 @@ using namespace std;
 #include "DummyChoosers.hpp"
 #include "DummyGuessers.hpp"
 #include "SmartGuesser.hpp"
-#include "calculate.hpp" //added, should be included
 #include "badkan.hpp"
 #define COMMA ,
 
