@@ -1,6 +1,4 @@
 #include <iostream>
-#include "Guesser.hpp"
-#include "Chooser.hpp"
 #include "calculate.hpp"
 
 namespace bullpgia{

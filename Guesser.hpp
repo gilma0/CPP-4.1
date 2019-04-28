@@ -8,11 +8,9 @@ using namespace std;
 namespace bullpgia{
 	class Guesser{
 	public:
-		int length;
-		Guesser();
-		Guesser(const string& constantString);
-		string learn(string a);
-		virtual string guess();
-		void startNewGame(int length);
+		uint length;
+		virtual void learn(string a){}
+		virtual string guess() = 0;
+		virtual void startNewGame(int length){}
 	};
 }

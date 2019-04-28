@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "calculate.hpp"
 #pragma once
 
 using namespace std;
@@ -7,9 +8,6 @@ using namespace std;
 namespace bullpgia{
 	class Chooser{
 	public:
-		int length;
-		Chooser();
-		Chooser(const string& constantString);
-		virtual string choose(uint length);
+		virtual string choose(uint length) = 0;
 	};
 }
