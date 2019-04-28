@@ -3,6 +3,8 @@
 #include "Chooser.hpp"
 #include "calculate.hpp"
 
-string calculateBullAndPgia(string a, string b){
-	return "";
+namespace bullpgia{
+	string calculateBullAndPgia(string a, string b){
+		return "";
+	}
 }

@@ -3,7 +3,7 @@
 namespace bullpgia{
 	int length;
 	Chooser::Chooser(){
-		this->length = 5;
+
 	}
 	Chooser::Chooser(const string& constantString){
 
