@@ -4,7 +4,7 @@ using namespace std;
 
 namespace bullpgia{
 	string calculateBullAndPgia(string choose, string guess){
-		int cSize = choose.length(); //////////remember to check if double digits
+		int cSize = choose.length();
 		int gSize = guess.length();
 		int a = 0;
 		int b = 0;
