@@ -1,10 +1,16 @@
 #include "SmartGuesser.hpp"
 namespace bullpgia{
+	uint length;
 	SmartGuesser::SmartGuesser(){
-		length = 0;
+
 	}
-	string /*SmartGuesser::Guesser::*/guess(){
+	string guess(){
 		return "";
 	}
-	void /*SmartGuesser::Guesser::*/learn(){}
+	void learn(string a){
+
+	}
+	void startNewGame(uint alength){
+		alength = alength;
+	}
 }
