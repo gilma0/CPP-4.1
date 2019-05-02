@@ -9,6 +9,8 @@ namespace bullpgia{
 	class SmartGuesser: public bullpgia::Guesser{
 	public:
 		SmartGuesser();
+		int bull;
+		int pgia;
 		uint length;
 		void learn(string a) override{}
 		string guess() override{return "";}
