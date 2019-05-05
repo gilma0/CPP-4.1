@@ -14,14 +14,11 @@ namespace bullpgia{
 		Guess = "";
 	}
 	string SmartGuesser::guess(){
-		cout<<"guess: "<<Guess<<endl;
 		return Guess;
 	}
 	void SmartGuesser::learn(string a){
-		cout<<"learn used"<<endl;
 		nowBull = a.at(0)-48;
 		if (nowBull > bull){
-			cout<<"now bull: "<<nowBull<<endl;
 			bullA[bull++] = now-1;
 			now = 0;
 			Guess = "";
