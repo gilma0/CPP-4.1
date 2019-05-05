@@ -17,15 +17,30 @@ namespace bullpgia{
 				if (guess.at(b) == now){
 					if (a == b){
 						bull++;
-					}
-					else{
-						pgia++;
+						choose[a]='a';
+						guess[b]='b';
 					}
 				}
 				b++;
 			}
 			a++;
 		}
+		a= 0;
+		b = 0;
+		while (a < cSize){
+			char now = choose.at(a);
+			b = 0;
+			while (b < gSize){
+				if (guess.at(b) == now){
+					pgia++;
+					choose[a]='a';
+					guess[b]='b';
+				}
+				b++;
+			}
+			a++;
+		}
+
 		string answer = to_string(bull)+","+to_string(pgia);
 		return answer;
 	}
