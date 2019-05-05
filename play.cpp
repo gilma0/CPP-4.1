@@ -22,6 +22,7 @@ namespace bullpgia {
 		uint indexOfTurn;
 		for (indexOfTurn=0; indexOfTurn<maxTurns; ++indexOfTurn) {
 			string guess = guesser.guess();
+			cout<< "this is guess in play: "<<guess<<endl;
 			if (guess.length()!=length)  // Illegal guess
 				return TECHNICAL_VICTORY_TO_CHOOSER;
 			if (guess==choice) {

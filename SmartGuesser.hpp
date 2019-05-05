@@ -10,10 +10,14 @@ namespace bullpgia{
 	public:
 		SmartGuesser();
 		int bull;
-		int pgia;
+		int nowBull;
+		int now;
+		int bullA[4];
+		string Guess;
+		//int pgia;
 		uint length;
-		void learn(string a) override{}
-		string guess() override{return "";}
-		void startNewGame(uint length){}
+		void learn(string a) override;
+		string guess() override;
+		void startNewGame(int length) override;
 	};
 }
