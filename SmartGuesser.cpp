@@ -22,7 +22,7 @@ namespace bullpgia{
 		nowBull = a.at(0)-48;
 		if (nowBull > bull){
 			cout<<"now bull: "<<nowBull<<endl;
-			bullA[bull++] = now;
+			bullA[bull++] = now-1;
 			now = 0;
 			Guess = "";
 			for (int i = 0; i<bull; i++){
