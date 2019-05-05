@@ -18,8 +18,6 @@ namespace bullpgia{
 						bull++;
 						choose[a]='a'; //changing the characters so we can check for pgia
 						guess[b]='b';
-						cout<<choose<<endl;
-						cout<<guess<<endl;
 					}
 				}
 				b++;
@@ -35,8 +33,6 @@ namespace bullpgia{
 					pgia++;
 					choose[a]='a'; //changing the characters so we can check for pgia without duplicates
 					guess[b]='b';
-					cout<<choose<<endl;
-					cout<<guess<<endl;
 				}
 				b++;
 			}
