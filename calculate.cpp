@@ -11,14 +11,15 @@ namespace bullpgia{
 		int bull = 0;
 		int pgia = 0;
 		while (a < cSize){
-			char now = choose.at(a);
 			b = 0;
 			while (b < gSize){
-				if (guess.at(b) == now){
+				if (guess.at(b) == choose.at(a)){
 					if (a == b){
 						bull++;
 						choose[a]='a';
 						guess[b]='b';
+						cout<<choose<<endl;
+						cout<<guess<<endl;
 					}
 				}
 				b++;
@@ -28,13 +29,14 @@ namespace bullpgia{
 		a= 0;
 		b = 0;
 		while (a < cSize){
-			char now = choose.at(a);
 			b = 0;
 			while (b < gSize){
-				if (guess.at(b) == now){
+				if (guess.at(b) == choose.at(a)){
 					pgia++;
 					choose[a]='a';
 					guess[b]='b';
+					cout<<choose<<endl;
+					cout<<guess<<endl;
 				}
 				b++;
 			}
